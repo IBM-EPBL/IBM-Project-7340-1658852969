@@ -1,0 +1,16 @@
+import random
+a=random.randint(0,200)
+b=random.randint(0,200)
+while((a>0) and (b>0)):
+    if(a>80):
+        print("High temperature")
+        print("Alarm ON")
+        if (b>90):
+            print("Hazard")
+    elif(a==80):
+        print("Temperature at max level")
+    else:
+        print("Normal Temperature")
+        print("Alarm OFF")
+    a=random.randint(0,200)
+    b=random.randint(0,200)
